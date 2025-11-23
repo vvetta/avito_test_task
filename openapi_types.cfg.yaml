@@ -1,0 +1,7 @@
+package: openapi
+generate:
+  models: true
+  chi-server: false
+  std-http-server: false
+  client: false
+output: "internal/adapters/http/openapi/types.gen.go"
