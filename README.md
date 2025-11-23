@@ -1,2 +1,21 @@
 # avito_test_task
 Test task for Avito
+
+# Запуск
+Для запуска приложения необходимо создать `.env` файл. Я предлагаю следующую структуру:
+```bash
+POSTGRES_USER=avitoUser
+POSTGRES_PASSWORD=avitoPassword
+POSTGRES_DB=avitoDB
+POSTGRES_HOST=db
+POSTGRES_PORT=5544
+POSTGRES_P=5432
+
+APP_PORT=8080
+
+PGADMIN_EMAIL=admin@admin.com
+PGADMIN_PASSWORD=admin
+
+DB_DSN=postgres://avitoUser:avitoPassword@db:5432/avitoDB?sslmode=disable
+```
+Это просто пример :)
